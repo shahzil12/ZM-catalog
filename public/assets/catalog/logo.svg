@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 130" width="160" height="130">
+  <g fill="none" stroke-width="8" stroke-linejoin="bevel">
+    <polygon points="40,20 75,75 5,75" stroke="#1E1E1E" />
+    <polygon points="120,20 155,75 85,75" stroke="#1E1E1E" />
+    <polygon points="80,105 115,50 45,50" stroke="#C86D51" />
+    <line x1="15" y1="115" x2="145" y2="115" stroke="#1E1E1E" stroke-linecap="square" />
+  </g>
+</svg>

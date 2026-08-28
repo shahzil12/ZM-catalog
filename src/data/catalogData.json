@@ -1,0 +1,612 @@
+{
+  "company": {
+    "name": "ZM Exports",
+    "tagline": "Driven by quality, purity, and strict food safety standards that meet international standards.",
+    "description": "ZM Exports is a Pakistan-based manufacturer and exporter of premium Himalayan salt products, committed to delivering quality, authenticity, and reliability to global markets. We specialize in supplying natural Himalayan salt items, including salt lamps, edible salt, decorative products, kitchenware, and therapy products crafted with exceptional care.",
+    "customManufacturing": "On Your Demand: Any size, specification, or shape can be produced.",
+    "contact": {
+      "phonePrimary": "+92 3719161020",
+      "phoneSecondary": "+92 3371113332",
+      "email": "zmexports.trade@gmail.com",
+      "instagram": "zmexports.trade",
+      "address": "Pakistan (Global Exporter)"
+    },
+    "shippingTerms": [
+      {
+        "code": "EXW",
+        "name": "Ex Works",
+        "description": "Seller makes goods available at factory premises. Ideal for buyers with existing freight arrangements."
+      },
+      {
+        "code": "FOB",
+        "name": "Free On Board",
+        "description": "Seller delivers goods onto vessel at port of origin. Comprehensive export customs clearance included."
+      },
+      {
+        "code": "CIF",
+        "name": "Cost, Insurance & Freight",
+        "description": "Seller pays cost, freight, and marine insurance to destination port for complete peace of mind."
+      }
+    ],
+    "qualityStandards": [
+      "100% Pure Organic Himalayan Rock Salt",
+      "Strict Food Safety & ISO Compliant Processing",
+      "Custom Retail & Wholesale Packaging Solutions",
+      "International Standard Moisture-Resistant Export Packing"
+    ]
+  },
+  "categories": [
+    {
+      "id": "edible-light",
+      "name": "Edible Pink Salt (Light)",
+      "description": "Pristine, food-grade light pink Himalayan salt with trace minerals.",
+      "badge": "Food Grade",
+      "products": [
+        {
+          "sku": "LP-P-001",
+          "name": "Light Pink Salt Powder",
+          "spec": "0.2 - 0.5mm",
+          "type": "Powder",
+          "image": "LP-P-001.jpg",
+          "rating": 4.9,
+          "highlight": "Fine table salt replacement"
+        },
+        {
+          "sku": "LP-F-002",
+          "name": "Light Pink Salt Fine",
+          "spec": "0.5 - 1.0mm",
+          "type": "Fine",
+          "image": "LP-F-002.jpg",
+          "rating": 4.8,
+          "highlight": "Shaker & cooking blend"
+        },
+        {
+          "sku": "LP-C-003",
+          "name": "Light Pink Salt Coarse",
+          "spec": "1.0 - 2.0mm",
+          "type": "Coarse",
+          "image": "LP-C-003.jpg",
+          "rating": 4.9,
+          "highlight": "Grinder & mill grade"
+        },
+        {
+          "sku": "LP-G-004",
+          "name": "Light Pink Salt Granular",
+          "spec": "2.0 - 5.0mm",
+          "type": "Granular",
+          "image": "LP-G-004.jpg",
+          "rating": 4.9,
+          "highlight": "Pickling & brining crystal"
+        }
+      ]
+    },
+    {
+      "id": "edible-dark",
+      "name": "Edible Pink Salt (Dark)",
+      "description": "Mineral-rich dark pink salt crystals with intense natural flavor.",
+      "badge": "High Mineral",
+      "products": [
+        {
+          "sku": "DP-P-001",
+          "name": "Dark Pink Salt Powder",
+          "spec": "0.2 - 0.5mm",
+          "type": "Powder",
+          "image": "DP-P-001.jpg",
+          "rating": 4.9,
+          "highlight": "Gourmet seasoning powder"
+        },
+        {
+          "sku": "DP-F-002",
+          "name": "Dark Pink Salt Fine",
+          "spec": "0.5 - 1.0mm",
+          "type": "Fine",
+          "image": "DP-F-002.jpg",
+          "rating": 4.9,
+          "highlight": "Rich trace element fine salt"
+        },
+        {
+          "sku": "DP-C-003",
+          "name": "Dark Pink Salt Coarse",
+          "spec": "1.0 - 2.0mm",
+          "type": "Coarse",
+          "image": "DP-C-003.jpg",
+          "rating": 4.8,
+          "highlight": "Premium grinder crystals"
+        },
+        {
+          "sku": "DP-G-004",
+          "name": "Dark Pink Salt Granular",
+          "spec": "2.0 - 5.0mm",
+          "type": "Granular",
+          "image": "DP-G-004.jpg",
+          "rating": 5,
+          "highlight": "Artisanal culinary salt"
+        }
+      ]
+    },
+    {
+      "id": "natural-lamps",
+      "name": "Natural Shape Salt Lamps",
+      "description": "Hand-carved raw Himalayan salt lamps with warm glowing amber light.",
+      "badge": "Hand Carved",
+      "products": [
+        {
+          "sku": "NS-L-001",
+          "name": "Natural Salt Lamp 1-2kg",
+          "spec": "1 - 2 kg",
+          "type": "Natural Lamp",
+          "image": "NS-L-001.jpg",
+          "rating": 4.9,
+          "highlight": "Compact desk wellness lamp"
+        },
+        {
+          "sku": "NS-L-002",
+          "name": "Natural Salt Lamp 2-3kg",
+          "spec": "2 - 3 kg",
+          "type": "Natural Lamp",
+          "image": "NS-L-002.jpg",
+          "rating": 5,
+          "highlight": "Bedroom ionizer glow"
+        },
+        {
+          "sku": "NS-L-003",
+          "name": "Natural Salt Lamp 3-5kg",
+          "spec": "3 - 5 kg",
+          "type": "Natural Lamp",
+          "image": "NS-L-003.jpg",
+          "rating": 4.9,
+          "highlight": "Living room accent piece"
+        },
+        {
+          "sku": "NS-L-004",
+          "name": "Natural Salt Lamp 5-7kg",
+          "spec": "5 - 7 kg",
+          "type": "Natural Lamp",
+          "image": "NS-L-004.jpg",
+          "rating": 5,
+          "highlight": "Statement large crystal lamp"
+        }
+      ]
+    },
+    {
+      "id": "simple-lamps",
+      "name": "Geometric & Simple Lamps",
+      "description": "Precision crafted geometric shapes for modern interior décor.",
+      "badge": "Architectural",
+      "products": [
+        {
+          "sku": "SS-C-001",
+          "name": "Simple Shape Cube Lamp",
+          "spec": "1 - 4 kg",
+          "type": "Cube",
+          "image": "SS-C-001.jpg",
+          "rating": 4.9,
+          "highlight": "Minimalist cubic aesthetic"
+        },
+        {
+          "sku": "SS-R-002",
+          "name": "Simple Shape Pyramid Lamp",
+          "spec": "1 - 5 kg",
+          "type": "Pyramid",
+          "image": "SS-R-002.jpg",
+          "rating": 5,
+          "highlight": "Sacred geometry point"
+        },
+        {
+          "sku": "SS-P-003",
+          "name": "Simple Shape Drop Lamp",
+          "spec": "1 - 3 kg",
+          "type": "Teardrop",
+          "image": "SS-P-003.jpg",
+          "rating": 4.8,
+          "highlight": "Smooth flowing contour"
+        },
+        {
+          "sku": "SS-D-004",
+          "name": "Rectangle Zebra Salt Lamp",
+          "spec": "2 - 3 kg",
+          "type": "Zebra Block",
+          "image": "SS-D-004.jpg",
+          "rating": 4.9,
+          "highlight": "Layered mineral stripe block"
+        }
+      ]
+    },
+    {
+      "id": "usb-lamps",
+      "name": "USB Salt Lamps",
+      "description": "Portable 5V USB-powered Himalayan salt lamps with multi-color LED support.",
+      "badge": "Desktop USB",
+      "products": [
+        {
+          "sku": "USL-N-001",
+          "name": "USB Natural Salt Lamp",
+          "spec": "USB 5V Powered",
+          "type": "Natural USB",
+          "image": "USL-N-001.jpg",
+          "rating": 4.8,
+          "highlight": "Plug & play office companion"
+        },
+        {
+          "sku": "USL-P-002",
+          "name": "USB Pyramid Salt Lamp",
+          "spec": "USB 5V Powered",
+          "type": "Pyramid USB",
+          "image": "USL-P-002.jpg",
+          "rating": 4.9,
+          "highlight": "Sleek office desk pyramid"
+        },
+        {
+          "sku": "USL-S-003",
+          "name": "USB Sphere Salt Lamp",
+          "spec": "USB 5V Powered",
+          "type": "Sphere USB",
+          "image": "USL-S-003.jpg",
+          "rating": 4.9,
+          "highlight": "Zen orb illumination"
+        },
+        {
+          "sku": "USL-D-004",
+          "name": "USB Drop Salt Lamp",
+          "spec": "USB 5V Powered",
+          "type": "Drop USB",
+          "image": "USL-D-004.jpg",
+          "rating": 4.8,
+          "highlight": "Compact teardrop LED lamp"
+        }
+      ]
+    },
+    {
+      "id": "bowl-lamps",
+      "name": "Bowl & Fire Lamps",
+      "description": "Artisanal carved salt bowls filled with warm crystal chunks and salt spheres.",
+      "badge": "Artisan Carved",
+      "products": [
+        {
+          "sku": "FBL-N-001",
+          "name": "Fire Bowl Lamp (Chunks)",
+          "spec": "25cm Diameter",
+          "type": "Natural Chunks",
+          "image": "FBL-N-001.jpg",
+          "rating": 5,
+          "highlight": "Glowing ember chunk bowl"
+        },
+        {
+          "sku": "FBL-B-002",
+          "name": "Fire Bowl Lamp (25 Balls)",
+          "spec": "25cm Diameter",
+          "type": "25 Spheres",
+          "image": "FBL-B-002.jpg",
+          "rating": 4.9,
+          "highlight": "Polished massage ball bowl"
+        },
+        {
+          "sku": "RBL-N-003",
+          "name": "Rose Bowl Lamp (Normal)",
+          "spec": "Standard Size",
+          "type": "Rose Bowl",
+          "image": "RBL-N-003.jpg",
+          "rating": 4.8,
+          "highlight": "Petal rim carved bowl"
+        },
+        {
+          "sku": "RBL-W-004",
+          "name": "Rose Bowl Lamp (Wide)",
+          "spec": "Wide Diameter",
+          "type": "Wide Rose",
+          "image": "RBL-W-004.jpg",
+          "rating": 4.9,
+          "highlight": "Grand center bowl lamp"
+        }
+      ]
+    },
+    {
+      "id": "candle-holders",
+      "name": "Himalayan Candle Holders",
+      "description": "Natural tealight holders crafted from mineral-rich pink salt rocks.",
+      "badge": "Ambient Light",
+      "products": [
+        {
+          "sku": "NCH-001",
+          "name": "Natural Candle Holder 1-2kg",
+          "spec": "1 - 2 kg",
+          "type": "Single Hole",
+          "image": "NCH-001.jpg",
+          "rating": 4.8,
+          "highlight": "Rustic tealight rock"
+        },
+        {
+          "sku": "BCH-002",
+          "name": "2-Hole Bar Candle Holder",
+          "spec": "Dual Socket",
+          "type": "Bar Holder",
+          "image": "BCH-002.jpg",
+          "rating": 4.9,
+          "highlight": "Dining table accent bar"
+        },
+        {
+          "sku": "TCH-003",
+          "name": "3-Hole Triangle Holder",
+          "spec": "Triple Socket",
+          "type": "Triangle",
+          "image": "TCH-003.jpg",
+          "rating": 5,
+          "highlight": "Trigon lighting centerpiece"
+        },
+        {
+          "sku": "LCH-004",
+          "name": "Leaf Carved Candle Holder",
+          "spec": "Leaf Contour",
+          "type": "Leaf Design",
+          "image": "LCH-004.jpg",
+          "rating": 4.9,
+          "highlight": "Botanical motif carved holder"
+        }
+      ]
+    },
+    {
+      "id": "tiles-bricks",
+      "name": "Construction Tiles & Bricks",
+      "description": "Architectural salt blocks for salt caves, saunas, and luxury interior walls.",
+      "badge": "Architectural",
+      "products": [
+        {
+          "sku": "NF-T-001",
+          "name": "Natural Face Salt Tile",
+          "spec": "1\" x 4\" x 8\"",
+          "type": "Natural Face Tile",
+          "image": "NF-T-001.jpg",
+          "rating": 5,
+          "highlight": "Textured cave wall face"
+        },
+        {
+          "sku": "PF-T-002",
+          "name": "Plain Face Salt Tile",
+          "spec": "1\" x 4\" x 12\"",
+          "type": "Smooth Tile",
+          "image": "PF-T-002.jpg",
+          "rating": 4.9,
+          "highlight": "Seamless sauna wall tile"
+        },
+        {
+          "sku": "NF-B-003",
+          "name": "Natural Face Salt Brick",
+          "spec": "2\" x 4\" x 8\"",
+          "type": "Natural Brick",
+          "image": "NF-B-003.jpg",
+          "rating": 5,
+          "highlight": "Heavy structural salt brick"
+        },
+        {
+          "sku": "PF-B-004",
+          "name": "Plain Face Salt Brick",
+          "spec": "1.5\" x 8\" x 8\"",
+          "type": "Smooth Block",
+          "image": "PF-B-004.jpg",
+          "rating": 4.9,
+          "highlight": "Backlit wall square block"
+        }
+      ]
+    },
+    {
+      "id": "kitchenware",
+      "name": "Salt Kitchenware & Cookware",
+      "description": "Gourmet cooking tiles, mortar & pestle sets, and handcrafted shot glasses.",
+      "badge": "Gourmet Cookware",
+      "products": [
+        {
+          "sku": "TG-001",
+          "name": "Tequila Shot Glasses (Set)",
+          "spec": "Standard 2oz",
+          "type": "Shot Glass",
+          "image": "TG-001.jpg",
+          "rating": 5,
+          "highlight": "Natural salted rim shot glass"
+        },
+        {
+          "sku": "WG-002",
+          "name": "Himalayan Wine Glass",
+          "spec": "Gourmet Goblet",
+          "type": "Wine Glass",
+          "image": "WG-002.jpg",
+          "rating": 4.9,
+          "highlight": "Artisanal beverage glass"
+        },
+        {
+          "sku": "MP-003",
+          "name": "Salt Mortar & Pestle",
+          "spec": "Heavy Duty",
+          "type": "Mortar & Pestle",
+          "image": "MP-003.jpg",
+          "rating": 4.9,
+          "highlight": "Infuses spices with pure minerals"
+        },
+        {
+          "sku": "CT-004",
+          "name": "Gourmet Salt Cooking Tile",
+          "spec": "8\" x 8\" x 1.5\"",
+          "type": "Cooking Tile",
+          "image": "CT-004.jpg",
+          "rating": 5,
+          "highlight": "Searing & chilling salt slab"
+        }
+      ]
+    },
+    {
+      "id": "night-lights",
+      "name": "Salt Night Lights",
+      "description": "Wall plug-in night lights with 360-degree rotating base plug.",
+      "badge": "Plug-In 110/220V",
+      "products": [
+        {
+          "sku": "PL-N-001",
+          "name": "Plug-In Natural Night Light",
+          "spec": "Wall Plug-In",
+          "type": "Natural Shape",
+          "image": "PL-N-001.jpg",
+          "rating": 4.8,
+          "highlight": "Direct wall socket warm light"
+        },
+        {
+          "sku": "PL-P-002",
+          "name": "Plug-In Pyramid Night Light",
+          "spec": "Wall Plug-In",
+          "type": "Pyramid",
+          "image": "PL-P-002.jpg",
+          "rating": 4.9,
+          "highlight": "Geometric nightstand accent"
+        },
+        {
+          "sku": "PL-D-003",
+          "name": "Plug-In Teardrop Night Light",
+          "spec": "Wall Plug-In",
+          "type": "Teardrop",
+          "image": "PL-D-003.jpg",
+          "rating": 4.8,
+          "highlight": "Gentle hallway luminary"
+        },
+        {
+          "sku": "PL-S-004",
+          "name": "Plug-In Sphere Night Light",
+          "spec": "Wall Plug-In",
+          "type": "Sphere",
+          "image": "PL-S-004.jpg",
+          "rating": 4.9,
+          "highlight": "Soft spherical hallway orb"
+        }
+      ]
+    },
+    {
+      "id": "salt-licks",
+      "name": "Animal Salt Licks",
+      "description": "Natural mineral lick blocks with weather-resistant rope for livestock and horses.",
+      "badge": "Livestock Grade",
+      "products": [
+        {
+          "sku": "SL-B-001",
+          "name": "Animal Salt Lick 1-2kg",
+          "spec": "1 - 2 kg",
+          "type": "Block with Rope",
+          "image": "SL-B-001.jpg",
+          "rating": 4.9,
+          "highlight": "Small animal mineral lick"
+        },
+        {
+          "sku": "SL-B-002",
+          "name": "Animal Salt Lick 2-3kg",
+          "spec": "2 - 3 kg",
+          "type": "Block with Rope",
+          "image": "SL-B-002.jpg",
+          "rating": 4.9,
+          "highlight": "Standard equine salt block"
+        },
+        {
+          "sku": "SL-B-003",
+          "name": "Animal Salt Lick 3-5kg",
+          "spec": "3 - 5 kg",
+          "type": "Block with Rope",
+          "image": "SL-B-003.jpg",
+          "rating": 5,
+          "highlight": "Cattle & livestock mineral block"
+        },
+        {
+          "sku": "SL-B-004",
+          "name": "Animal Salt Lick 5-8kg",
+          "spec": "5 - 8 kg",
+          "type": "Block with Rope",
+          "image": "SL-B-004.jpg",
+          "rating": 5,
+          "highlight": "Heavy duty farm salt lick"
+        }
+      ]
+    },
+    {
+      "id": "massage-stones",
+      "name": "Salt Massage Stones",
+      "description": "Ergonomic salt stones for warm salt stone therapy and spa treatments.",
+      "badge": "Spa & Wellness",
+      "products": [
+        {
+          "sku": "MS-O-001",
+          "name": "Oval Massage Stone",
+          "spec": "Flat Face",
+          "type": "Oval",
+          "image": "MS-O-001.jpg",
+          "rating": 4.9,
+          "highlight": "Back & body therapy stone"
+        },
+        {
+          "sku": "MS-E-002",
+          "name": "Egg Shaped Massage Stone",
+          "spec": "Slab Contour",
+          "type": "Egg Shape",
+          "image": "MS-E-002.jpg",
+          "rating": 4.8,
+          "highlight": "Palm grip massage stone"
+        },
+        {
+          "sku": "MS-TD-003",
+          "name": "Teardrop Massage Stone",
+          "spec": "Flat Sides",
+          "type": "Teardrop",
+          "image": "MS-TD-003.jpg",
+          "rating": 4.9,
+          "highlight": "Targeted point therapy stone"
+        },
+        {
+          "sku": "MS-H-004",
+          "name": "Heart Shaped Massage Stone",
+          "spec": "Flat Face",
+          "type": "Heart Shape",
+          "image": "MS-H-004.jpg",
+          "rating": 5,
+          "highlight": "Facial & neck massage heart"
+        }
+      ]
+    },
+    {
+      "id": "therapy-wellness",
+      "name": "Salt Therapy & Wellness",
+      "description": "Salt detox plates, inhalers, neti pots, and thermal salt pillows.",
+      "badge": "Holistic Health",
+      "products": [
+        {
+          "sku": "FD-P-001",
+          "name": "Himalayan Foot Detoxer Plates",
+          "spec": "Pair (2 Plates)",
+          "type": "Detox Plate",
+          "image": "FD-P-001.jpg",
+          "rating": 5,
+          "highlight": "Warming foot spa plates"
+        },
+        {
+          "sku": "T-I-002",
+          "name": "Salt Therapy Inhaler",
+          "spec": "Ceramic / Salt",
+          "type": "Inhaler",
+          "image": "T-I-002.jpg",
+          "rating": 4.8,
+          "highlight": "Respiratory mineral inhaler"
+        },
+        {
+          "sku": "T-NP-003",
+          "name": "Himalayan Neti Pot",
+          "spec": "Nasal Therapy",
+          "type": "Neti Pot",
+          "image": "T-NP-003.jpg",
+          "rating": 4.9,
+          "highlight": "Sinus cleansing salt pot"
+        },
+        {
+          "sku": "T-P-004",
+          "name": "Therapy Salt Pillow",
+          "spec": "6\" x 8\"",
+          "type": "Hot/Cold Pillow",
+          "image": "T-P-004.jpg",
+          "rating": 4.9,
+          "highlight": "Thermal muscle relief pillow"
+        }
+      ]
+    }
+  ]
+}

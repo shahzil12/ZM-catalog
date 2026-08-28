@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-base: #FFFFFF;
+    --color-bg-subtle: #F9FAFB;
+    --color-rose: #E8927C;
+    --color-amber: #F5A97F;
+    --color-terracotta: #C86D51;
+    --color-charcoal: #111827;
+    --color-slate: #374151;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--color-bg-subtle);
+    color: var(--color-charcoal);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Inter', sans-serif;
+  }
+}
+
+/* Custom Utilities & Glow Animations */
+.bg-rose-glow {
+  background: radial-gradient(circle at center, rgba(232, 146, 124, 0.25) 0%, rgba(245, 169, 127, 0.08) 50%, transparent 70%);
+}
+
+.bg-amber-warmth {
+  background: radial-gradient(circle at 50% 50%, rgba(245, 169, 127, 0.35) 0%, rgba(200, 109, 81, 0.1) 60%, transparent 80%);
+}
+
+.text-gradient-rose {
+  background: linear-gradient(135deg, #C86D51 0%, #E8927C 50%, #F5A97F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Authentic Poster Headline Typography */
+.text-himalayan-title {
+  color: #3A3A3A;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.text-pink-salt-gradient {
+  background: linear-gradient(135deg, #F3B2A2 0%, #E59885 30%, #C87463 70%, #A85343 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}
+
+.text-salt-image-clip {
+  background-image: url('/assets/catalog/salt_texture.jpg');
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  filter: drop-shadow(3px 5px 8px rgba(0, 0, 0, 0.22)) contrast(1.2) brightness(1.08);
+}
+
+
+/* 3D Animated Heading Utilities */
+@keyframes float3D {
+  0%, 100% {
+    transform: translateY(0px) rotateX(0deg) rotateY(0deg) translateZ(0px);
+  }
+  50% {
+    transform: translateY(-8px) rotateX(3deg) rotateY(-3deg) translateZ(15px);
+  }
+}
+
+.animate-float-3d {
+  animation: float3D 6s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+.text-3d-emboss {
+  text-shadow: 
+    1px 1px 0px rgba(255, 255, 255, 0.8),
+    2px 3px 0px rgba(58, 58, 58, 0.3),
+    4px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(232, 146, 124, 0.2);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  border-color: rgba(232, 146, 124, 0.5);
+  box-shadow: 0 20px 40px -15px rgba(200, 109, 81, 0.15);
+  transform: translateY(-4px);
+}
+
+.shadow-warm {
+  box-shadow: 0 10px 30px -10px rgba(200, 109, 81, 0.12);
+}
+
+.shadow-glow {
+  box-shadow: 0 0 25px rgba(245, 169, 127, 0.4);
+}
+
+/* Mountain Line Art Vector Overlay */
+.bg-mountain-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23C86D51' fill-opacity='0.04' d='M0,224L48,208C96,192,192,160,288,176C384,192,480,256,576,261.3C672,267,768,213,864,181.3C960,150,1056,139,1152,149.3C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F9FAFB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8927C;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C86D51;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 0.95; transform: scale(1.03); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
