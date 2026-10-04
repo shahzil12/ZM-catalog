@@ -45,10 +45,10 @@ export default function ProductCard({ product, categoryBadge, onSelectProduct, o
           </span>
         </div>
 
-        {/* Product Visual Container with Larger Uncropped View */}
+        {/* Product Visual Container with Clean White Studio Presentation */}
         <div 
           onClick={() => onSelectProduct(product)}
-          className="relative w-full h-64 sm:h-72 rounded-2xl overflow-hidden bg-white cursor-pointer border border-slate-200/80 group-hover:border-rose-300 transition-all mb-4 shadow-sm group-hover:shadow-md p-2 flex items-center justify-center"
+          className="relative w-full h-64 sm:h-72 rounded-2xl overflow-hidden bg-white cursor-pointer border border-slate-200/90 group-hover:border-[#E8927C] transition-all mb-4 shadow-sm group-hover:shadow-lg p-5 flex items-center justify-center"
         >
           <img
             src={imagePath}
@@ -56,7 +56,7 @@ export default function ProductCard({ product, categoryBadge, onSelectProduct, o
             onError={(e) => {
               e.target.style.display = 'none';
             }}
-            className="w-full h-full object-contain group-hover:scale-108 transition-transform duration-500"
+            className="w-full h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500 drop-shadow-md"
           />
 
 
