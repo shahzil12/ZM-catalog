@@ -81,7 +81,7 @@ export default function Hero3D({ onOpenInquiry, onScrollToCatalog }) {
                 onClick={onScrollToCatalog}
                 className="px-8 py-4 rounded-2xl bg-white border border-slate-300 hover:border-[#E8927C] text-slate-900 font-bold text-sm shadow-xs hover:bg-rose-50/50 hover:text-[#C86D51] transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
-                View Product Catalog (52 SKUs)
+                Explore Product Categories
                 <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-[#C86D51]" />
               </button>
             </div>

@@ -9,7 +9,8 @@ import ExportInquiryModal from './components/ExportInquiryModal';
 import Footer from './components/Footer';
 
 export default function App() {
-  const [activeCategory, setActiveCategory] = useState('all');
+  // Default to null (Homepage displays clean Product Category Cards Grid)
+  const [activeCategory, setActiveCategory] = useState(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [inquiryModalOpen, setInquiryModalOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function App() {
 
   const handleSelectCategory = (catId) => {
     setActiveCategory(catId);
-    // Smooth scroll down to catalog section if selected from navbar
+    // Smooth scroll down to catalog section if selected
     const el = document.getElementById('catalog-section');
     if (el) {
       el.scrollIntoView({ behavior: 'smooth' });
@@ -37,7 +38,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans flex flex-col justify-between selection:bg-rose-200 selection:text-slate-900">
+    <div className="min-h-screen bg-[#F9FAFB] text-slate-900 font-sans flex flex-col justify-between selection:bg-rose-200 selection:text-slate-900">
       
       {/* Navigation Bar */}
       <Navbar
@@ -48,17 +49,17 @@ export default function App() {
         onOpenInquiry={() => handleOpenInquiry(null)}
       />
 
-      {/* Hero 3D Section */}
+      {/* Hero Section */}
       <main>
         <Hero3D
           onOpenInquiry={() => handleOpenInquiry(null)}
           onScrollToCatalog={handleScrollToCatalog}
         />
 
-        {/* Filterable Catalog Grid (48 SKUs) */}
+        {/* Restructured Store / Category & Product Flow */}
         <CatalogGrid
           activeCategory={activeCategory}
-          onSelectCategory={setActiveCategory}
+          onSelectCategory={handleSelectCategory}
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           onSelectProduct={(prod) => setSelectedProduct(prod)}
@@ -77,7 +78,7 @@ export default function App() {
         onOpenInquiry={() => handleOpenInquiry(null)}
       />
 
-      {/* Product Interactive Modal with Smooth Framer Motion Entrance/Exit */}
+      {/* Product Interactive Modal */}
       <AnimatePresence>
         {selectedProduct && (
           <ProductModal

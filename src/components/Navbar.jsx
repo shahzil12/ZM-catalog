@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles, Phone, Mail, Globe, Menu, X, Search, ChevronDown, Award } from 'lucide-react';
-import catalogData from '../data/catalogData.json';
+import { Sparkles, Phone, Mail, Globe, Menu, X, Search, ChevronDown, Award, Home } from 'lucide-react';
 import ZMLogo from './ZMLogo';
 
 export default function Navbar({ activeCategory, onSelectCategory, searchQuery, setSearchQuery, onOpenInquiry }) {
@@ -10,11 +9,12 @@ export default function Navbar({ activeCategory, onSelectCategory, searchQuery, 
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const customFilterTabs = [
-    { id: 'all', label: 'All Products (52)' },
+    { id: null, label: 'All Categories Overview' },
     { id: 'edible', label: 'Edible Salt' },
     { id: 'lamps', label: 'Salt Lamps' },
     { id: 'wellness', label: 'Home & Wellness' },
-    { id: 'kitchenware_licks', label: 'Kitchenware & Animal Licks' }
+    { id: 'kitchenware_licks', label: 'Kitchenware & Animal Licks' },
+    { id: 'all', label: 'Master Catalog (52 SKUs)' }
   ];
 
   useEffect(() => {
@@ -59,21 +59,34 @@ export default function Navbar({ activeCategory, onSelectCategory, searchQuery, 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           
-          {/* Official Brand Logo */}
-          <a href="#" className="flex items-center group py-1">
+          {/* Official Brand Logo - Resets to Homepage Category Grid */}
+          <div 
+            onClick={() => onSelectCategory(null)}
+            className="flex items-center group py-1 cursor-pointer"
+          >
             <ZMLogo className="h-10 sm:h-14" variant="dark" />
-          </a>
+          </div>
 
           {/* Search Bar & Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-5">
             
+            {/* Home / Overview Link */}
+            <button
+              onClick={() => onSelectCategory(null)}
+              className={`text-xs font-black transition-colors cursor-pointer flex items-center gap-1 ${
+                activeCategory === null ? 'text-[#C86D51]' : 'text-slate-700 hover:text-[#C86D51]'
+              }`}
+            >
+              <Home className="w-3.5 h-3.5" /> Categories
+            </button>
+
             {/* Category Dropdown */}
             <div className="relative">
               <button 
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 className="flex items-center gap-1.5 text-xs font-black text-slate-800 hover:text-[#C86D51] py-2 transition-colors cursor-pointer uppercase tracking-wider"
               >
-                Categories
+                Dropdown
                 <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`} />
               </button>
 
@@ -88,7 +101,7 @@ export default function Navbar({ activeCategory, onSelectCategory, searchQuery, 
                   >
                     {customFilterTabs.map((tab) => (
                       <button
-                        key={tab.id}
+                        key={String(tab.id)}
                         onClick={() => { onSelectCategory(tab.id); setDropdownOpen(false); }}
                         className={`w-full text-left px-3 py-2 text-xs font-bold rounded-xl transition-colors cursor-pointer ${
                           activeCategory === tab.id ? 'bg-rose-50 text-[#C86D51] font-black border border-rose-200' : 'hover:bg-slate-50 text-slate-700'
@@ -193,12 +206,12 @@ export default function Navbar({ activeCategory, onSelectCategory, searchQuery, 
               />
             </div>
 
-            <p className="text-xs font-black uppercase tracking-wider text-slate-400 px-1">Categories</p>
+            <p className="text-xs font-black uppercase tracking-wider text-slate-400 px-1">Navigation</p>
             
             <div className="grid grid-cols-1 gap-1">
               {customFilterTabs.map((tab) => (
                 <button
-                  key={tab.id}
+                  key={String(tab.id)}
                   onClick={() => { onSelectCategory(tab.id); setMobileMenuOpen(false); }}
                   className={`text-left px-3 py-2 text-xs rounded-xl font-bold ${activeCategory === tab.id ? 'bg-rose-50 text-[#C86D51]' : 'text-slate-700'}`}
                 >
