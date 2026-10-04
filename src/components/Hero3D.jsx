@@ -112,7 +112,7 @@ export default function Hero3D({ onOpenInquiry, onScrollToCatalog }) {
                 </div>
                 <div className="truncate">
                   <span className="text-[10px] text-slate-400 font-bold block uppercase leading-none">WhatsApp / Call</span>
-                  <span className="font-bold truncate">03719161020, 03371113332</span>
+                  <span className="font-bold truncate">03719161020</span>
                 </div>
               </a>
 

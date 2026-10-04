@@ -101,11 +101,11 @@ export default function Footer({ onSelectCategory, onOpenInquiry }) {
               </a>
 
               <a
-                href="tel:03371113332"
+                href="tel:03719161020"
                 className="flex items-center gap-2.5 hover:text-[#F7C5BA] transition-colors"
               >
                 <Phone className="w-4 h-4 text-[#E8927C] shrink-0" />
-                <span>Phone: 03719161020, 03371113332</span>
+                <span>Phone: 03719161020</span>
               </a>
 
               <a
@@ -156,7 +156,7 @@ export default function Footer({ onSelectCategory, onOpenInquiry }) {
             <Phone className="w-4 h-4 text-[#E8927C]" />
             <div>
               <span className="font-black block uppercase text-[10px] text-slate-400">PHONE / WHATSAPP</span>
-              <span className="font-bold">03719161020, 03371113332</span>
+              <span className="font-bold">03719161020</span>
             </div>
           </a>
 

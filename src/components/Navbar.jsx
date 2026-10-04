@@ -44,7 +44,7 @@ export default function Navbar({ activeCategory, onSelectCategory, searchQuery, 
           </div>
           <div className="flex items-center space-x-6 text-slate-200">
             <a href="tel:03719161020" className="flex items-center gap-1.5 hover:text-[#F7C5BA] transition-colors">
-              <Phone className="w-3.5 h-3.5 text-[#E8927C]" /> 03719161020, 03371113332
+              <Phone className="w-3.5 h-3.5 text-[#E8927C]" /> 03719161020
             </a>
             <a href="mailto:zmexports.trade.com" className="flex items-center gap-1.5 hover:text-[#F7C5BA] transition-colors">
               <Mail className="w-3.5 h-3.5 text-[#E8927C]" /> zmexports.trade.com
@@ -222,7 +222,7 @@ export default function Navbar({ activeCategory, onSelectCategory, searchQuery, 
 
             <div className="pt-3 border-t border-slate-200 flex flex-col gap-2 text-xs text-slate-700">
               <a href="tel:03719161020" className="flex items-center gap-2 font-medium">
-                <Phone className="w-4 h-4 text-[#C86D51]" /> 03719161020, 03371113332
+                <Phone className="w-4 h-4 text-[#C86D51]" /> 03719161020
               </a>
               <a href="mailto:zmexports.trade.com" className="flex items-center gap-2 font-medium">
                 <Mail className="w-4 h-4 text-[#C86D51]" /> zmexports.trade.com
