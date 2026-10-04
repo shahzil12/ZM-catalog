@@ -23,7 +23,6 @@ const catalogData = {
       address: "Pakistan (Global Exporter)"
     },
     shippingTerms: [
-      { code: "EXW", name: "Ex Works", description: "Seller makes goods available at factory premises. Ideal for buyers with existing freight arrangements." },
       { code: "FOB", name: "Free On Board", description: "Seller delivers goods onto vessel at port of origin. Comprehensive export customs clearance included." },
       { code: "CIF", name: "Cost, Insurance & Freight", description: "Seller pays cost, freight, and marine insurance to destination port for complete peace of mind." }
     ],

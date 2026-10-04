@@ -136,7 +136,6 @@ export default function ExportInquiryModal({ isOpen, onClose, initialProduct }) 
                     onChange={(e) => setIncoterm(e.target.value)}
                     className="w-full text-xs bg-slate-50 border border-slate-200 rounded-xl p-2.5 font-mono focus:outline-none focus:border-[#E8927C]"
                   >
-                    <option value="EXW">EXW - Factory Pickup (Pakistan)</option>
                     <option value="FOB">FOB - Free On Board (Karachi Port)</option>
                     <option value="CIF">CIF - Cost, Insurance & Freight (Destination Port)</option>
                   </select>

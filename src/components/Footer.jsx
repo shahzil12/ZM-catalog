@@ -69,11 +69,6 @@ export default function Footer({ onSelectCategory, onOpenInquiry }) {
             <p className="text-xs font-black uppercase tracking-wider text-slate-300">Export Incoterms</p>
             <div className="space-y-2 text-xs">
               <div className="bg-slate-900/90 p-2.5 rounded-xl border border-slate-800">
-                <span className="font-mono font-bold text-[#F7C5BA]">EXW (Ex Works)</span>
-                <p className="text-[10px] text-slate-400 mt-0.5">Factory floor dispatch</p>
-              </div>
-
-              <div className="bg-slate-900/90 p-2.5 rounded-xl border border-slate-800">
                 <span className="font-mono font-bold text-[#F7C5BA]">FOB (Free On Board)</span>
                 <p className="text-[10px] text-slate-400 mt-0.5">Port delivery & clearance</p>
               </div>
@@ -177,7 +172,7 @@ export default function Footer({ onSelectCategory, onOpenInquiry }) {
             <span>•</span>
             <span>Custom OEM Packaging</span>
             <span>•</span>
-            <span>EXW / FOB / CIF Freight</span>
+            <span>FOB / CIF Freight</span>
           </div>
         </div>
 

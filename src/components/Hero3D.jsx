@@ -50,10 +50,6 @@ export default function Hero3D({ onOpenInquiry, onScrollToCatalog }) {
               <div className="flex flex-wrap items-center gap-2">
                 <span className="px-3.5 py-1.5 rounded-xl bg-white border border-slate-300/90 text-xs font-mono font-black text-slate-800 shadow-xs flex items-center gap-1.5">
                   <span className="w-2 h-2 rounded-full bg-[#E8927C]"></span>
-                  EXW (Ex Works)
-                </span>
-                <span className="px-3.5 py-1.5 rounded-xl bg-white border border-slate-300/90 text-xs font-mono font-black text-slate-800 shadow-xs flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-[#E8927C]"></span>
                   FOB (Free On Board)
                 </span>
                 <span className="px-3.5 py-1.5 rounded-xl bg-white border border-slate-300/90 text-xs font-mono font-black text-slate-800 shadow-xs flex items-center gap-1.5">

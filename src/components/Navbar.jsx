@@ -40,7 +40,7 @@ export default function Navbar({ activeCategory, onSelectCategory, searchQuery, 
               <Award className="w-3.5 h-3.5 text-[#E8927C]" /> ZM EXPORTS — HIMALAYAN PINK SALT SUPPLIER
             </span>
             <span className="text-slate-700">|</span>
-            <span className="text-slate-300 font-mono text-[11px]">EXW · FOB · CIF Shipping Terms</span>
+            <span className="text-slate-300 font-mono text-[11px]">FOB · CIF Shipping Terms</span>
           </div>
           <div className="flex items-center space-x-6 text-slate-200">
             <a href="tel:03719161020" className="flex items-center gap-1.5 hover:text-[#F7C5BA] transition-colors">

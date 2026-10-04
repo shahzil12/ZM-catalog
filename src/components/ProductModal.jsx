@@ -189,7 +189,6 @@ export default function ProductModal({ product, onClose, onSubmitRFQ }) {
                         onChange={(e) => setShippingTerm(e.target.value)}
                         className="w-full text-xs bg-slate-50 border border-slate-200 rounded-xl p-2 font-mono focus:outline-none focus:border-[#E8927C]"
                       >
-                        <option value="EXW">EXW (Ex Works)</option>
                         <option value="FOB">FOB (Free On Board Port)</option>
                         <option value="CIF">CIF (Cost, Insurance, Freight)</option>
                       </select>
